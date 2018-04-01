@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaMetricsCalculator", "JavaMetricsCalculator\JavaMetricsCalculator.csproj", "{6513A6DE-3255-4E2F-B3F4-ADBAF2B6B6F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsCalculator", "MetricsCalculator\MetricsCalculator.csproj", "{3AEC8EEB-D394-4D03-BC15-556EC9884D9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6513A6DE-3255-4E2F-B3F4-ADBAF2B6B6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6513A6DE-3255-4E2F-B3F4-ADBAF2B6B6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6513A6DE-3255-4E2F-B3F4-ADBAF2B6B6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AEC8EEB-D394-4D03-BC15-556EC9884D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AEC8EEB-D394-4D03-BC15-556EC9884D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AEC8EEB-D394-4D03-BC15-556EC9884D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AEC8EEB-D394-4D03-BC15-556EC9884D9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
