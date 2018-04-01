@@ -13,12 +13,11 @@ namespace JavaMetricsCalculator
         static void Main(string[] args)
         {
             string path = "D:/КСЮ/Programs/Projects/Архіви/LeafPic-dev";
-            var list = Metrics.SearchClasses(path);
-
-            foreach (var el in list)
+           
+            foreach (var el in Metrics.SearchPackages(path))
                 Console.WriteLine(el);
 
-            Console.WriteLine("\n\n " + Metrics.NumberOfFiles(path));
+            Console.WriteLine("\n\n " + Metrics.NumberOfPackages(path) + "\n\n");
 
             Console.ReadKey();
         }
